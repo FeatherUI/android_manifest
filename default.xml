@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Google AOSP Code Source -->
+  <remote name="aosp" fetch="https://android.googlesource.com" />
+
+  <!-- Target Android version tag -->
+  <default revision="refs/tags/android-14.0.0_r1" remote="aosp" sync-j="4" />
+
+  <!-- Pull in official Android source tree -->
+  <include name="default.xml" />
+</manifest>
